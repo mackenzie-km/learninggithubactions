@@ -19,3 +19,5 @@ jobs:
         uses: actions/checkout@v2
       - name: Step two
         run: "Get-ChildItem Env: | Sort-Object Name"
+      - name: YAML Lint
+        uses: ibiqlik/action-yamllint@v1.0.0
